@@ -114,7 +114,7 @@ public class TechJobs {
 
         for(int i = 0; i < someJobs.size(); i++) {
             for(Map.Entry<String, String> job : someJobs.get(i).entrySet()) {
-                System.out.println("Your search results are: " + job);
+                System.out.println(job.getKey() + ":" + job.getValue());
             }
         }
     }
